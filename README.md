@@ -1,3 +1,5 @@
+[English](README.md) | [简体中文](README.zh-CN.md) | [Русский](README.ru.md) | [Português](README.pt-BR.md)
+
 # Awesome AI Export Cleaners
 
 A curated list of tools, guides, and workflow notes for cleaning exported files from AI-assisted content platforms.
