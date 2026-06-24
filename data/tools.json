@@ -1,0 +1,28 @@
+[
+  {
+    "name": "GammaRemover",
+    "url": "https://gammaremover.com/",
+    "category": "Gamma export cleanup",
+    "platform": "Gamma",
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "browserBased": true,
+    "description": "Independent browser-based cleanup tool for standard Gamma PDF and PowerPoint exports.",
+    "responsibleUseNote": "Use only for files you own or have permission to modify. This is not an official Gamma tool."
+  },
+  {
+    "name": "NotebookLMRemover",
+    "url": "https://notebooklmremover.org/",
+    "category": "NotebookLM export workflows",
+    "platform": "NotebookLM",
+    "formats": [
+      "Generated study materials",
+      "Workflow guides"
+    ],
+    "browserBased": true,
+    "description": "Independent guide and helper site for NotebookLM-related export workflows and generated materials.",
+    "responsibleUseNote": "Use only for files you own or have permission to modify. This is not an official Google or NotebookLM tool."
+  }
+]

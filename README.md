@@ -4,14 +4,19 @@
 
 A curated list of tools, guides, and workflow notes for cleaning exported files from AI-assisted content platforms.
 
-This list focuses on practical export cleanup for documents, slides, PDFs, and generated study materials. Use only for files you own or have permission to modify.
+This repository is a practical resource directory for document, slide, PDF, and generated study-material cleanup workflows. Use only for files you own or have permission to modify.
 
 ## Contents
 
 - [Featured Tools](#featured-tools)
+- [Tool Directory](#tool-directory)
+- [Supported Formats](#supported-formats)
+- [Common Use Cases](#common-use-cases)
 - [Categories](#categories)
 - [Guides](#guides)
+- [Repository Structure](#repository-structure)
 - [Selection Criteria](#selection-criteria)
+- [Responsible Use](#responsible-use)
 - [Related Projects](#related-projects)
 - [Disclaimer](#disclaimer)
 
@@ -37,6 +42,36 @@ Best for:
 - Generated study materials and notes
 - Learning how to prepare AI-assisted materials for personal or team use
 
+## Tool Directory
+
+| Tool | Platform | Supported formats | Browser-based | Best for | Link |
+| --- | --- | --- | --- | --- | --- |
+| GammaRemover | Gamma exports | PDF, PPTX | Yes | Cleaning your own Gamma PDF and PowerPoint exports | [GammaRemover](https://gammaremover.com/) |
+| NotebookLMRemover | NotebookLM workflows | Study materials, generated notes, workflow guides | Yes | Organizing NotebookLM-related export workflows | [NotebookLMRemover](https://notebooklmremover.org/) |
+| Community guides / workflow notes | General AI export workflows | PDF, PPTX, documents, study materials | Varies | Understanding cleanup choices before editing files | Local docs in this repository |
+
+## Supported Formats
+
+| Format or workflow | What this repository covers | Notes |
+| --- | --- | --- |
+| PDF exports | Cleanup notes for exported documents | Results depend on how the PDF was generated. |
+| PowerPoint / PPTX exports | Slide-deck cleanup notes and review workflows | PPTX files may expose editable slide objects. |
+| Generated study materials | Notes, summaries, and source-based learning files | Review accuracy before sharing. |
+| AI-generated documents | General document cleanup and review practices | Keep source files and change history where possible. |
+| Browser-based cleanup workflows | Tools that run without desktop installation | Check files locally before uploading anywhere. |
+| Export workflow guides | Practical notes for choosing the right workflow | Prefer supported official export settings when needed. |
+
+## Common Use Cases
+
+- Cleaning visible branding from your own Gamma PDF export.
+- Preparing Gamma PPTX files for review or internal presentation drafts.
+- Organizing NotebookLM-generated study materials before sharing with a team.
+- Keeping original files before cleanup so changes can be checked or reversed.
+- Reviewing exported AI-generated documents before sending them to clients, classmates, or collaborators.
+- Understanding PDF vs PPTX cleanup differences before choosing a workflow.
+- Comparing browser-based cleanup tools with manual document editing.
+- Creating a simple export checklist for repeatable team workflows.
+
 ## Categories
 
 ### Gamma Export Cleanup
@@ -60,6 +95,15 @@ Best for:
 - [Cross-tool AI export cleanup guide](https://gammaremover.com/en/blog/remove-ai-tool-watermarks-guide/) - a practical overview for cleaning exported AI-generated files across common formats.
 - [NotebookLM export workflow guide](https://notebooklmremover.org/blog/remove-ai-tool-watermarks-guide/) - a NotebookLM-oriented guide for preparing generated materials and related exports.
 
+## Repository Structure
+
+- [Gamma export cleanup notes](docs/gamma-export-cleanup.md)
+- [NotebookLM export workflows](docs/notebooklm-export-workflows.md)
+- [PDF and PPTX cleanup notes](docs/pdf-pptx-cleanup-notes.md)
+- [Responsible use](docs/responsible-use.md)
+- [Tool data](data/tools.json)
+- [Contributing guide](CONTRIBUTING.md)
+
 ## Selection Criteria
 
 Resources should be:
@@ -69,10 +113,18 @@ Resources should be:
 - Independent when they are not official tools from the platform being discussed.
 - Respectful of ownership, permissions, and applicable platform terms.
 
+## Responsible Use
+
+- Only use tools for files you own or have permission to modify.
+- Do not use cleanup tools to misrepresent authorship.
+- Do not violate platform terms, copyright, or licensing rules.
+- Use official paid export options when you need fully supported platform-approved watermark-free exports.
+- This repository is not affiliated with Gamma, NotebookLM, Google, or any other platform mentioned.
+
 ## Related Projects
 
-- [Gamma PDF/PPTX cleanup tool](https://gammaremover.com/) - browser-based cleanup for Gamma exports.
-- [NotebookLM workflow guide site](https://notebooklmremover.org/) - NotebookLM export workflow and cleanup resources.
+- Gamma PDF/PPTX cleanup tool - browser-based cleanup for Gamma exports.
+- NotebookLM workflow guide site - NotebookLM export workflow and cleanup resources.
 
 ## Contributing
 
